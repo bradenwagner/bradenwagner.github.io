@@ -37,3 +37,85 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+/* Braden Wagner portfolio refinements */
+:root {
+  --portfolio-accent: #c85a24;
+  --portfolio-ink: #172b4d;
+  --portfolio-card: #f6f2ea;
+}
+
+html[data-theme="dark"] {
+  --portfolio-accent: #f2a06f;
+  --portfolio-ink: #f7f2e9;
+  --portfolio-card: #27364c;
+}
+
+.masthead {
+  border-top: 4px solid var(--portfolio-accent);
+}
+
+.page__title {
+  color: var(--portfolio-ink);
+  font-size: clamp(2.2rem, 6vw, 4.6rem);
+  letter-spacing: -0.045em;
+}
+
+.profile-lead {
+  max-width: 44rem;
+  margin-bottom: 2.5rem !important;
+  color: var(--portfolio-ink);
+  font-family: $georgia;
+  font-size: clamp(1.3rem, 2.5vw, 1.8rem) !important;
+  line-height: 1.45;
+}
+
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2rem 0 3rem;
+}
+
+.info-card,
+.experience-list article {
+  padding: 1.4rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 10px;
+  background: var(--portfolio-card);
+}
+
+.info-card h2,
+.experience-list h2 {
+  margin: 0.25rem 0 0.75rem;
+  padding: 0;
+  border: 0;
+  color: var(--portfolio-ink);
+}
+
+.info-card a {
+  color: var(--portfolio-ink);
+  font-weight: 700;
+  text-decoration-color: var(--portfolio-accent);
+  text-underline-offset: 0.2em;
+}
+
+.eyebrow {
+  margin: 0 !important;
+  color: var(--portfolio-accent);
+  font-size: 0.76rem !important;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.experience-list {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (max-width: 680px) {
+  .section-grid {
+    grid-template-columns: 1fr;
+  }
+}

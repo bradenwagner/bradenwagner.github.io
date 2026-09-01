@@ -3,62 +3,36 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
+excerpt: "Education, research interests, and teaching experience for Braden Wagner."
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**University of Virginia**
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Ph.D. in Economics, in progress
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+**Baylor University**
 
-Publications
+Economics, Finance, and Mathematics, 2022
+
+Research interests
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+
+Industrial organization; applied microeconomics
+
+Teaching experience
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+
+**University of Virginia**
+
+- Industrial Organization — Teaching Assistant
+- Intermediate Microeconomics — Teaching support and tutoring
+
+Contact
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+[dmj3yd@virginia.edu](mailto:dmj3yd@virginia.edu) · [Department profile](https://economics.virginia.edu/people/braden-wagner) · [LinkedIn](https://www.linkedin.com/in/bradenwagner)
