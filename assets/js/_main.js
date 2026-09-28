@@ -171,13 +171,13 @@ $(document).ready(function () {
   var didResize = false;
   bumpIt();
 
-  // Follow menu drop down
+  // Contact menu drop down
   $(".author__urls-wrapper button").on("click", function () {
     $(".author__urls").fadeToggle("fast", function () { });
     $(".author__urls-wrapper button").toggleClass("open");
   });
 
-  // Restore the follow menu if toggled on a window resize
+  // Restore the contact menu if toggled on a window resize
   jQuery(window).on('resize', function () {
     if ($('.author__urls.social-icons').css('display') == 'none' && $(window).width() >= scssLarge) {
       $(".author__urls").css('display', 'block')

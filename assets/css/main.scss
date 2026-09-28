@@ -55,6 +55,18 @@ html[data-theme="dark"] {
   border-top: 4px solid var(--portfolio-accent);
 }
 
+.author__avatar img {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+  object-position: center 32%;
+
+  @include breakpoint($large) {
+    width: 175px;
+    height: 175px;
+  }
+}
+
 .page__title {
   color: var(--portfolio-ink);
   font-size: clamp(2.2rem, 6vw, 4.6rem);
@@ -70,9 +82,37 @@ html[data-theme="dark"] {
   line-height: 1.45;
 }
 
+.profile-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.8rem 1.1rem;
+  margin: -1rem 0 2.5rem;
+}
+
+.portfolio-button {
+  margin: 0;
+  background: var(--portfolio-ink);
+
+  &:hover {
+    background: var(--portfolio-accent);
+  }
+}
+
+.profile-text-link {
+  color: var(--portfolio-ink);
+  font-weight: 700;
+  text-decoration-color: var(--portfolio-accent);
+  text-underline-offset: 0.2em;
+}
+
+.cv-download {
+  margin-bottom: 2rem;
+}
+
 .section-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 1rem;
   margin: 2rem 0 3rem;
 }

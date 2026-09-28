@@ -16,6 +16,10 @@ package-lock.json
 /vendor/
 .bundle/
 
+# Ignore generated document review files; publishable copies live in /files
+output/
+tmp/
+
 # Ignore folders related to IDEs
 .vscode/
 

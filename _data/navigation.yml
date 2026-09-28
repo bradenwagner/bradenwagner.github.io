@@ -6,13 +6,13 @@
 #
 # NOTE that only one of the CV options should be selected, the first is for the
 #      Markdown formatted page while the second is generated using JSON.
+#
+# To make the CV header link open the PDF directly, change its URL below to:
+# /files/braden-wagner-cv.pdf
 
 main:
   - title: "Research"
     url: /research/
-
-  - title: "Teaching"
-    url: /teaching/
 
   - title: "CV"
     url: /cv/

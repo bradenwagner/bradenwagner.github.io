@@ -8,7 +8,7 @@ excerpt: "Research interests in industrial organization and applied microeconomi
 
 <p class="profile-lead">My research interests are in industrial organization and applied microeconomics.</p>
 
-I am interested in how firms compete, how market structure affects behavior, and how empirical evidence can inform our understanding of markets.
+I am interested in how firms compete, how market structure affects behavior, and how regulation affects market outcomes.
 
 ## Current work
 
