@@ -181,6 +181,7 @@ exclude:
   - CHANGELOG
   - Capfile
   - config
+  - docker-compose.yaml
   - Dockerfile
   - Gemfile
   - Gruntfile.js
@@ -188,10 +189,16 @@ exclude:
   - LICENSE
   - local
   - log
+  - markdown_generator
   - node_modules
   - package.json*
   - Rakefile
   - README
+  - scripts
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
+  - talkmap_out.ipynb
   - tmp
   - vendor
 keep_files:
