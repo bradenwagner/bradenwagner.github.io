@@ -1,6 +1,6 @@
 # Braden Wagner
 
-Personal academic website for Braden Wagner, a Ph.D. student in Economics at the University of Virginia.
+Personal academic website for Braden Wagner, a Ph.D. candidate in Economics at the University of Virginia.
 
 The site is published at [bradenwagner.github.io](https://bradenwagner.github.io).
 
@@ -10,6 +10,7 @@ The site is published at [bradenwagner.github.io](https://bradenwagner.github.io
 - `_pages/research.md` — research interests and work
 - `_pages/cv.md` — concise web CV
 - `files/braden-wagner-cv.pdf` — downloadable PDF CV
+- `files/braden-wagner-jmp.pdf` — downloadable job market paper
 - `_config.yml` — site identity, links, and metadata
 - `_data/navigation.yml` — header navigation
 

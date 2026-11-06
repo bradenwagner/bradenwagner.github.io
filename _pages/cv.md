@@ -26,12 +26,12 @@ Committee
 
 - [Federico Ciliberto](mailto:fc3p@virginia.edu)
 - [Simon Anderson](mailto:sa9w@virginia.edu)
-- [Alexander Mackay](mailto:mackay@virginia.edu)
+- [Alexander MacKay](mailto:mackay@virginia.edu)
 
 Job market paper
 ======
 
-"Aggregative Games, Excise Taxes, and Illicit Cannabis - How Legal Regulation Fuels Illegal Markets"
+"Aggregative Games, Excise Taxes, and Illicit Cannabis: How Legal Regulation Fuels Illegal Markets"
 
 Fields of interest
 ======

@@ -43,16 +43,39 @@
   --portfolio-accent: #c85a24;
   --portfolio-ink: #172b4d;
   --portfolio-card: #f6f2ea;
+  --portfolio-on-ink: #ffffff;
+  --portfolio-button-hover: #a8461a;
 }
 
 html[data-theme="dark"] {
   --portfolio-accent: #f2a06f;
   --portfolio-ink: #f7f2e9;
   --portfolio-card: #27364c;
+  --portfolio-on-ink: #172b4d;
+  --portfolio-button-hover: #f2a06f;
 }
 
 .masthead {
   border-top: 4px solid var(--portfolio-accent);
+}
+
+/* Footer sits at the end of the page instead of staying pinned to the window.
+   The !important overrides the inline margin set by bumpIt() in _main.js. */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-bottom: 0 !important;
+}
+
+body > #main {
+  flex: 1 0 auto;
+  width: 100%;
+}
+
+.page__footer {
+  position: relative;
+  bottom: auto;
 }
 
 .author__avatar img {
@@ -92,10 +115,23 @@ html[data-theme="dark"] {
 
 .portfolio-button {
   margin: 0;
+  color: var(--portfolio-on-ink) !important;
   background: var(--portfolio-ink);
 
   &:hover {
-    background: var(--portfolio-accent);
+    background: var(--portfolio-button-hover);
+  }
+}
+
+.author__urls-wrapper .btn--inverse {
+  color: var(--portfolio-ink) !important;
+  border: 1px solid var(--portfolio-ink) !important;
+  background: transparent;
+
+  &:hover,
+  &.open {
+    color: var(--portfolio-on-ink) !important;
+    background: var(--portfolio-ink);
   }
 }
 

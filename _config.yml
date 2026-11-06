@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Braden Wagner"
 title_separator          : "-"
 name                     : &name "Braden Wagner"
-description              : &description "Braden Wagner is a Ph.D. student in Economics at the University of Virginia studying industrial organization."
+description              : &description "Braden Wagner is a Ph.D. candidate in Economics at the University of Virginia studying industrial organization, taxation and regulation, and demand estimation."
 url                      : https://bradenwagner.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "Braden Wagner.jpg"
   name             : "Braden Wagner"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. student in Economics"
+  bio              : "Ph.D. candidate in Economics"
   location         : "Charlottesville, Virginia"
   employer         : "University of Virginia"
   uri              : "https://economics.virginia.edu/people/braden-wagner"
@@ -144,7 +144,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : "og.png"
-og_description           : "Braden Wagner is a Ph.D. student in Economics at the University of Virginia studying industrial organization."
+og_description           : "Braden Wagner is a Ph.D. candidate in Economics at the University of Virginia studying industrial organization, taxation and regulation, and demand estimation."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

@@ -25,7 +25,7 @@ en: &DEFAULT_EN
   contact_button_label       : "Contact"
   feed_label                 : "Feed"
   powered_by                 : "Powered by"
-  website_label              : "Website"
+  website_label              : "UVA profile"
   email_label                : "Email"
   recent_posts               : "Recent Posts"
   site_map                   : "Sitemap"
